@@ -2,6 +2,9 @@
   "name": "aws-lambda-test-example",
   "version": "1.0.0",
   "description": "Example of testing serverless lambda handlers",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/runAll.js"
+  },
   "author": "dannycroft",
   "license": "ISC",
   "repository": {
@@ -11,6 +14,7 @@
   "dependencies": {},
   "devDependencies": {
     "aws-lambda-test-helper": "^1.0.2",
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
